@@ -2,7 +2,7 @@ function Herosection() {
   return (
     <section
       className="relative min-h-screen h-screen w-full bg-cover bg-center flex justify-center items-center"
-      style={{ backgroundImage: "url('/images/home.webp')" }}
+      style={{ backgroundImage: "url('/images/service.webp')" }}
     >
       {/* Overlay */}
       <div className="absolute size-full bg-linear-to-t from-black/50 to-black/90 z-10"></div>

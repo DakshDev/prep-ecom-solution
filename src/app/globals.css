@@ -52,6 +52,7 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
   --primary: #f2731d;
+  /* --primary: #0084ff; */
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
@@ -118,5 +119,24 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+.primaryBtn {
+  @apply px-4 py-2 cursor-pointer rounded-md capitalize font-semibold text-white transition-all translate-0.5 bg-primary border-2 border-transparent hover:bg-transparent hover:border-primary hover:text-primary hover:scale-95 active:scale-100;
+}
+
+.secondaryBtn {
+  @apply px-4 py-2 cursor-pointer rounded-md capitalize font-semibold transition-all translate-0.5 text-primary border-2 border-primary hover:bg-primary hover:text-white hover:scale-95 active:scale-100;
+}
+
+@theme inline {
+  --animate-scroll: scroll var(--animation-duration, 40s)
+    var(--animation-direction, forwards) linear infinite;
+
+  @keyframes scroll {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
   }
 }

@@ -1,10 +1,10 @@
 import FormSection from "./sections/form";
-import HeroSection from "./sections/hero";
+import Herosection from "./herosection";
 
 export default function Home() {
   return (
     <div className="grid gap-12">
-      <HeroSection />
+      <Herosection />
       <FormSection />
     </div>
   );

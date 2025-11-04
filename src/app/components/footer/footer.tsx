@@ -4,20 +4,20 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="bg-primary md:px-4 px-2 py-12 pb-4 text-white grid gap-14 mt-12">
-      <footer className="max-w-7xl mx-auto flex gap-4 font-semibold w-full">
-        <div className="min-w-xs grid gap-2 items-start content-start">
+    <div className="bg-primary md:px-4 px-2 py-12 pb-4 text-white grid gap-14 mt-22">
+      <footer className="max-w-7xl mx-auto sm:flex grid gap-8 font-semibold w-full">
+        <div className="sm:max-w-xs w-full grid gap-2 items-start content-start">
           <h1 className="text-2xl font-bold capitalize">{default_info.name}</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, sed!
           </p>
-          <div className="flex gap-2">
+          <div className="flex gap-2 w-full">
             <Instagram className="size-5 hover:scale-95 cursor-pointer transition-all translate-0.5 text-primary bg-white box-content p-1.5 rounded-sm" />
             <Facebook className="size-5 hover:scale-95 cursor-pointer transition-all translate-0.5 text-primary bg-white box-content p-1.5 rounded-sm" />
             <Linkedin className="size-5 hover:scale-95 cursor-pointer transition-all translate-0.5 text-primary bg-white box-content p-1.5 rounded-sm" />
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-4 w-full">
+        <div className="grid lg:grid-cols-3 grid-cols-2 gap-4 w-full">
           <nav className="grid gap-1">
             <h2 className="text-2xl font-bold mb-2">Company</h2>
             {primary_menu.map((each) => (
