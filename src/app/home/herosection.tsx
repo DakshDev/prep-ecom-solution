@@ -11,13 +11,14 @@ function Herosection() {
       <div className="relative z-10 pt-10 px-4 grid gap-4 text-white max-w-4xl w-full text-center wrap-break-word">
         <h1 className="lg:text-6xl md:text-4xl text-3xl font-bold">
           Fast, Accurate, & Scalable 3PL Fulfillment 7 Days a Week For{" "}
-          <span className="text-primary">XYZ</span>
+          <span className="text-primary">Your</span>
           &nbsp;Brand
         </h1>
         <h2 className="lg:text-2xl md:text-xl max-md:w-[90%] mx-auto">
-          QuickBox is your premier 3PL fulfillment and logistics management
-          partner, delivering top-tier omnichannel operations to your customers.
-          Reach 95% of the U.S. with cost-effective dynamic shipping solutions.
+          Prep Ecom Solution is your premier 3PL fulfillment and logistics
+          management partner, delivering top-tier omnichannel operations to your
+          customers. Reach 95% of the U.S. with cost-effective dynamic shipping
+          solutions.
         </h2>
         <form>
           <button className="primaryBtn">Request A Quote</button>

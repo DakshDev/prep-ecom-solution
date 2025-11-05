@@ -5,7 +5,7 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
 export default function MovingCards() {
   return (
-    <div className="relative overflow-hidden max-w-7xl w-full mx-auto md:px-4 px-2 grid gap-12">
+    <div className="relative overflow-hidden max-w-7xl w-full mx-auto px-4 grid gap-12">
       <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-primary">
         Customer Reviews
       </h1>

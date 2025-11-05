@@ -1,6 +1,6 @@
 function StatsSection() {
   return (
-    <section className="max-w-7xl w-full mx-auto md:px-4 px-2 grid gap-12">
+    <section className="max-w-7xl w-full mx-auto px-4 grid gap-12">
       <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-primary">
         Accuracy, Speed, and
         <br />
@@ -20,7 +20,7 @@ function StatsSection() {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <span className="h-full inline-block w-1 bg-primary rounded-sm"></span>
+            <span className="h-full inline-block w-2 bg-primary rounded-sm"></span>
             <div>
               <h2 className="lg:text-4xl md:text-3xl text-2xl  font-bold text-primary">
                 99.5%
@@ -30,7 +30,7 @@ function StatsSection() {
           </div>
           {/* 2 */}
           <div className="flex items-center gap-4">
-            <span className="h-full inline-block w-1 bg-primary rounded-sm"></span>
+            <span className="h-full inline-block w-2 bg-primary rounded-sm"></span>
             <div>
               <h2 className="lg:text-4xl md:text-3xl text-2xl  font-bold text-primary">
                 99.5%
@@ -40,7 +40,7 @@ function StatsSection() {
           </div>
           {/* 3 */}
           <div className="flex items-center gap-4">
-            <span className="h-full inline-block w-1 bg-primary rounded-sm"></span>
+            <span className="h-full inline-block w-2 bg-primary rounded-sm"></span>
             <div>
               <h2 className="lg:text-4xl md:text-3xl text-2xl  font-bold text-primary">
                 99.5%
@@ -50,7 +50,7 @@ function StatsSection() {
           </div>
           {/* 4 */}
           <div className="flex items-center gap-4">
-            <span className="h-full inline-block w-1 bg-primary rounded-sm"></span>
+            <span className="h-full inline-block w-2 bg-primary rounded-sm"></span>
             <div>
               <h2 className="lg:text-4xl md:text-3xl text-2xl  font-bold text-primary">
                 99.5%

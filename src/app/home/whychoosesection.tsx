@@ -3,7 +3,7 @@ import { Exo } from "next/font/google";
 
 function WhyChooseSection() {
   return (
-    <section className="max-w-7xl w-full mx-auto md:p-4 p-2 grid gap-12">
+    <section className="max-w-7xl w-full mx-auto px-4 grid gap-12">
       <div>
         <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-primary mb-2">
           Why Choose Us

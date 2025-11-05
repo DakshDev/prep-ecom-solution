@@ -39,7 +39,7 @@ function TestimonialsSection() {
     },
   ];
   return (
-    <section className="max-w-7xl w-full mx-auto md:px-4 px-2 grid gap-12">
+    <section className="max-w-7xl w-full mx-auto px-12 grid gap-12">
       <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-primary">
         Satisfied Customers
       </h1>

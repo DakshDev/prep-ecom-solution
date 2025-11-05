@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <div className="bg-primary md:px-4 px-2 py-12 pb-4 text-white grid gap-14 mt-22">
+    <div className="bg-primary md:px-4 px-4 py-12 pb-4 text-white grid gap-14 mt-22">
       <footer className="max-w-7xl mx-auto sm:flex grid gap-8 font-semibold w-full">
         <div className="sm:max-w-xs w-full grid gap-2 items-start content-start">
           <h1 className="text-2xl font-bold capitalize">{default_info.name}</h1>

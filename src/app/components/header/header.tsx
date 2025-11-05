@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import HeaderScrollHandler from "./header_scroll_handler";
-import { useEffect, useState } from "react";
+import { Dispatch, SetStateAction, useState } from "react";
 import { primary_menu } from "@/config/config";
 
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
   const [isMenuHide, setIsMenuHide] = useState(true);
   return (
     <div
-      className={`md:p-4 px-2 py-4 w-full fixed top-0 left-0 z-50 transition-all translate-0.5 max-md:bg-white max-md:text-black ${
+      className={`p-4 w-full fixed top-0 left-0 z-50 transition-all max-md:bg-white max-md:text-black ${
         scrolled > 100
           ? "bg-white text-black shadow-[0_4px_6px_-1px_rgba(0,0,0,0.3)]"
           : "text-white"
@@ -62,7 +62,7 @@ function Header() {
           )}
           {/* Desktop */}
           <DesktopNav />
-          <MobileNav isMenuHide={isMenuHide} />
+          <MobileNav isMenuHide={isMenuHide} setIsMenuHide={setIsMenuHide} />
         </header>
       </div>
     </div>
@@ -76,7 +76,7 @@ function DesktopNav() {
         <Link
           key={each.link}
           href={each.link}
-          className="p-2 capitalize font-semibold hover:text-primary transition-all translate-0.5"
+          className="p-2 capitalize font-semibold hover:text-primary transition-all"
         >
           {each.name}
         </Link>
@@ -85,19 +85,26 @@ function DesktopNav() {
   );
 }
 
-function MobileNav({ isMenuHide }: { isMenuHide: boolean }) {
+function MobileNav({
+  isMenuHide,
+  setIsMenuHide,
+}: {
+  isMenuHide: boolean;
+  setIsMenuHide: Dispatch<SetStateAction<boolean>>;
+}) {
   return (
     <nav
-      className={`grid gap-4 md:hidden absolute top-full w-full p-2 transition-all translate-0.5 text-black ${
+      className={`grid gap-4 md:hidden absolute top-full left-0 w-full transition-all text-black p-2 ${
         isMenuHide ? "left-[200%]" : "left-0"
       }`}
     >
       <div className="w-full bg-white/80 backdrop-blur-xl box shadow-[0_0px_6px_-1px_rgba(0,0,0,0.3)] rounded-md p-2 grid">
         {primary_menu.map((each) => (
           <Link
+            onClick={() => setIsMenuHide(true)}
             key={each.link}
             href={each.link}
-            className="p-2 capitalize font-semibold hover:text-primary transition-all translate-0.5"
+            className="p-2 capitalize font-semibold hover:text-primary transition-all"
           >
             {each.name}
           </Link>

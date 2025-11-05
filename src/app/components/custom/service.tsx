@@ -1,27 +1,17 @@
 function ServiceSection() {
   return (
-    <section className="max-w-7xl w-full mx-auto md:p-4 p-2 grid gap-12">
-      <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-primary">
-        Customer Use Cases
-      </h1>
+    <section className="max-w-7xl w-full mx-auto px-4 grid gap-12">
       <div className="grid gap-4">
-        <div className="grid lg:grid-cols-2 md:gap-4 gap-2 p-2 bg-accent rounded-sm">
-          <div className="md:text-lg">
-            <h1 className="md:text-2xl text-xl text-primary mb-1 font-bold">
-              Heading
+        <div className="grid lg:grid-cols-2 md:gap-4 gap-2 p-2 rounded-sm">
+          <div className="md:text-xl sm:text-lg grid content-center items-center">
+            <h1 className="lg:text-4xl md:text-2xl text-xl text-primary mb-4 font-bold">
+              Prep Ecom Solution
             </h1>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-            incidunt quasi velit nostrum provident. Dolore minima sed quae ipsam
-            ab eveniet esse quis rerum eligendi minus! Quos fugiat deserunt
-            repudiandae, id velit veniam facere, necessitatibus ipsa officia
-            animi vitae, esse neque reprehenderit dolores. Assumenda distinctio
-            voluptatem mollitia quis neque esse consectetur corporis facere
-            commodi modi quos quidem alias debitis eos non dicta exercitationem,
-            quaerat vero maiores sit eligendi sequi quo illum reiciendis!
-            Aspernatur ratione at deleniti earum voluptatem ut? Deserunt earum
-            quos in officia sequi aspernatur delectus vitae, perferendis minima
-            magni rem tempora eveniet, esse perspiciatis tenetur quas itaque
-            pariatur!
+            A specialized third-party logistics 3PL company dedicated to
+            providing end-to-end e-commerce fulfilment services for online
+            sellers. We help businesses of all sizes streamline their operations
+            by taking care of inventory storage, product preparation, packing,
+            and shipping with precision and reliability.
           </div>
           <div>
             <img
@@ -31,23 +21,17 @@ function ServiceSection() {
             />
           </div>
         </div>
-        <div className="grid lg:grid-cols-2 md:gap-4 gap-2 p-2 bg-accent rounded-sm">
-          <div className="md:text-lg">
-            <h1 className="md:text-2xl text-xl text-primary mb-1 font-bold">
-              Heading
+        <div className="grid lg:grid-cols-2 md:gap-4 gap-2 p-2 rounded-sm">
+          <div className="md:text-xl sm:text-lg grid content-center items-center">
+            <h1 className="lg:text-4xl md:text-2xl text-xl text-primary mb-4 font-bold">
+              Fulfilment
             </h1>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-            incidunt quasi velit nostrum provident. Dolore minima sed quae ipsam
-            ab eveniet esse quis rerum eligendi minus! Quos fugiat deserunt
-            repudiandae, id velit veniam facere, necessitatibus ipsa officia
-            animi vitae, esse neque reprehenderit dolores. Assumenda distinctio
-            voluptatem mollitia quis neque esse consectetur corporis facere
-            commodi modi quos quidem alias debitis eos non dicta exercitationem,
-            quaerat vero maiores sit eligendi sequi quo illum reiciendis!
-            Aspernatur ratione at deleniti earum voluptatem ut? Deserunt earum
-            quos in officia sequi aspernatur delectus vitae, perferendis minima
-            magni rem tempora eveniet, esse perspiciatis tenetur quas itaque
-            pariatur!
+            We understand that timely and accurate order fulfilment is critical
+            to building customer trust and growing an online business. That's
+            why we offer comprehensive logistics solutions tailored to the needs
+            of e-commerce sellers, from startups to large-scale brands. Our team
+            ensures that every product is handled with care, labeled correctly,
+            and shipped on time to meet platform and customer requirements.
           </div>
           <div>
             <img
