@@ -5,7 +5,7 @@ function Herosection() {
       style={{ backgroundImage: "url('/images/about.webp')" }}
     >
       {/* Overlay */}
-      <div className="absolute size-full bg-linear-to-t from-black/40 to-black/90 z-10"></div>
+      <div className="absolute size-full bg-linear-to-t from-black/60 to-black/95 z-10"></div>
 
       {/* Content */}
       <div className="relative z-10 pt-10 px-4 grid gap-4 text-white max-w-4xl w-full text-center wrap-break-word">

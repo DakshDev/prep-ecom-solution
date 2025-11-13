@@ -4,12 +4,9 @@ import { Timeline } from "@/components/ui/timeline";
 export default function AboutSection() {
   const data = [
     {
-      title: "2024",
+      title: "2025",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
-          </p>
           <div className="grid grid-cols-2 gap-4">
             <img
               src="https://assets.aceternity.com/pro/hero-sections.png"
@@ -44,13 +41,9 @@ export default function AboutSection() {
       ),
     },
     {
-      title: "Early 2023",
+      title: "Early 2024",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            I usually run out of copy, but when I see content this big, I try to
-            integrate lorem ipsum.
-          </p>
           <div className="grid grid-cols-2 gap-4">
             <img
               src="https://assets.aceternity.com/pro/hero-sections.png"
@@ -88,9 +81,6 @@ export default function AboutSection() {
       title: "Changelog",
       content: (
         <div>
-          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Deployed 5 new components on Aceternity today
-          </p>
           <div className="grid grid-cols-2 gap-4">
             <img
               src="https://assets.aceternity.com/pro/hero-sections.png"
@@ -127,6 +117,45 @@ export default function AboutSection() {
   ];
   return (
     <div className="relative w-full overflow-clip">
+      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10 grid gap-6">
+        <h1 className="lg:text-5xl md:text-4xl text-3xl font-bold text-primary">
+          Breif
+        </h1>
+        <div className="grid gap-1 text-lg">
+          <p>
+            At Prep Ecom Solution, we simplify logistics through reliable,
+            cost-effective, and scalable warehousing and logistics solutions.
+            From inventory management and transportation to event logistics and
+            on-site coordination, we deliver end-to-end support that keeps your
+            goods, equipment, and operations moving efficiently.
+          </p>
+          <p>
+            As a leading logistics service provider, we proudly serve businesses
+            (B2B) and individual clients (B2C) across multiple industries.
+            Whether you need a long-term warehousing partner, distribution
+            support, or a full-service logistics plan for your next big event,
+            we have the expertise and infrastructure to make it happen — on time
+            and on budget.
+          </p>
+          <p>
+            Our team of logistics professionals brings together years of
+            experience in supply chain management, modern tracking technology,
+            and a customer-first approach. We prioritize speed, accuracy, and
+            transparency, offering flexible storage options, real-time delivery
+            tracking, and dedicated client support every step of the way.
+          </p>
+          <p>
+            At Prep Ecom Solution, we go beyond transportation — we build
+            lasting partnerships. Our mission is to make logistics simple,
+            smart, and stress-free, so you can focus on what matters most:
+            growing your business and delivering great experiences.
+          </p>
+          <p>
+            Prep Ecom Solution: We Prep You Grow. Your all-in-one solution for
+            warehousing, distribution, and logistics management.
+          </p>
+        </div>
+      </div>
       <Timeline data={data} />
     </div>
   );

@@ -4,8 +4,8 @@ const default_info = {
 
 const primary_menu = [
   { name: "home", link: "/" },
-  { name: "services", link: "/services" },
   { name: "about", link: "/about" },
+  { name: "services", link: "/services" },
   { name: "contact", link: "/contact" },
 ];
 
