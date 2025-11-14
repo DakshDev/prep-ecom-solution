@@ -1,3 +1,4 @@
+import Founder from "./components/custom/founder";
 import ServiceSection from "./components/custom/service";
 import MovingCards from "./components/shadcn/moving_cards";
 // import TestimonialsSection from "./components/shadcn/testimonials";
@@ -14,7 +15,8 @@ export default function Home() {
       <StatsSection />
       <hr className="my-4 border-t-2 border-gray-300" />
       <WhyChooseSection />
-      {/* <hr className="my-4 border-t-2 border-gray-300" /> */}
+      <hr className="my-4 border-t-2 border-gray-300" />
+      <Founder />
       {/* <TestimonialsSection /> */}
       <hr className="my-4 border-t-2 border-gray-300" />
       <MovingCards />
