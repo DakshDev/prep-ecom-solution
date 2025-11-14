@@ -23,9 +23,10 @@ function FormSection() {
       body: JSON.stringify(data),
     })
       .then(() => {
-        alert("Send");
+        alert("✅ Thanks for your mail");
+        location.href = "/";
       })
-      .catch(() => alert("try later"));
+      .catch(() => alert("🟠 try later"));
   };
   return (
     <section className="max-w-7xl mx-auto w-full md:p-4 p-2 ">

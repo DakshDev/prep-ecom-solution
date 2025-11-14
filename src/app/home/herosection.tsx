@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ContactButton from "./contactPopup";
 
 function Herosection() {
   return (
@@ -22,11 +23,7 @@ function Herosection() {
           customers. Reach 95% of the U.S. with cost-effective dynamic shipping
           solutions.
         </h2>
-        <form>
-          <Link href={"/contact"} className="primaryBtn">
-            Get your Warehouse
-          </Link>
-        </form>
+        <ContactButton />
       </div>
     </section>
   );
