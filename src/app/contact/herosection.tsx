@@ -31,14 +31,14 @@ function Herosection() {
             <div className="text-center">support@prepecomsolution.com</div>
           </Link>
           <Link
-            href={"https://wa.me/13468594022"}
+            href={"tel:+13464447578"}
             target="_blank"
             className="border border-accent p-4 rounded-sm grid gap-1 justify-center items-center min-w-80 hover:bg-accent hover:text-foreground transition-all ease-in-out"
           >
             <div className="flex justify-center">
               <MessageCircleMore className="text-primary size-8" />
             </div>
-            <div className="text-center">+1 346 859 4022</div>
+            <div className="text-center">+1 346 444 7578</div>
           </Link>
           <Link
             href={"https://www.google.com/maps?ll=29.558793,-95.770522&z=16&t=m&hl=en&gl=US&mapclient=embed&q=5601+Avenue+I+Rosenberg,+TX+77471+USA"}
